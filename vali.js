@@ -5,9 +5,9 @@ $('#myForm').on('submit', function(event) {
     event.preventDefault(); // prevent reload
     
     var formData = new FormData(this);
-    formData.append('service_id', 'service_pf9fryg');
-    formData.append('template_id', 'template_emrdcxa');
-    formData.append('user_id', '8m0G0Hqn8M2U5jWD_');
+    formData.append('service_id', 'service_xqhflf5');
+    formData.append('template_id', 'template_in6jhd7');
+    formData.append('user_id', 'A2TS5ySuEHmMbnLAd');
  
     $.ajax('https://api.emailjs.com/api/v1.0/email/send-form', {
         type: 'POST',
